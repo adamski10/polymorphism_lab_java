@@ -18,4 +18,8 @@ public class ReportingSoftware {
         this.chargesList.add(chargeAmount);
     }
 
+    public Integer getSize(){
+        return this.chargesList.size();
+    }
+
 }

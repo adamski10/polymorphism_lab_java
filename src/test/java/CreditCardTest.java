@@ -15,7 +15,7 @@ public class CreditCardTest {
     
     @Before
     public void before() {
-        creditCard = new CreditCard(0.02, "Credit card", 22334455, "01/01/2022", 0.05);
+        creditCard = new CreditCard(0.02, "Credit card", 22334455, "01/01/2022", 0.05, 2000.00);
     }
 
     @Test
@@ -41,4 +41,17 @@ public class CreditCardTest {
     public void canGetRiskMultiplier(){
         assertEquals(0.05, creditCard.getRiskMultiplier(), 0.01);
     }
+
+    @Test
+    public void canGetChargeAmount(){
+        assertEquals(10, creditCard.getChargeAmount(500), 0.01 );
+
+    }
+
+    @Test
+    public void canApplyChargeAmount(){
+        creditCard.applyChargeAmount(500);
+        assertEquals(1500.00, creditCard.getBalance(), 0.01);
+    }
+
 }

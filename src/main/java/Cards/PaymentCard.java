@@ -11,6 +11,7 @@ public abstract class PaymentCard implements IChargeable {
     protected int cardNumber;
     protected String expirationDate;
 
+
     public PaymentCard(double cardCost, String cardType, int cardNumber, String expirationDate){
         this.cardCost = cardCost;
         this.cardType = cardType;
@@ -18,9 +19,7 @@ public abstract class PaymentCard implements IChargeable {
         this.expirationDate = expirationDate;
     }
 
-    public double getChargeAmount(double transactionAmount) {
-        return this.cardCost * transactionAmount;
-    }
+
 
     public double getCardCost() {
         return this.cardCost;

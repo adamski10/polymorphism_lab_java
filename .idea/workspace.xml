@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1345b8c4-4bd8-4b7f-9ea0-5ff0b78718e5" name="Default Changelist" comment="" />
+    <list default="true" id="1345b8c4-4bd8-4b7f-9ea0-5ff0b78718e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OnlineAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cards/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/DebitCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cards/DebitCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/GiftCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cards/GiftCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/PaymentCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cards/PaymentCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Retailers/IChargeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Retailers/IChargeable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Retailers/OnlineAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Retailers/OnlineAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Retailers/ReportingSoftware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Retailers/ReportingSoftware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cards/CreditCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cards/CreditCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cards/DebitCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cards/GiftCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cards/GiftCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cards/PaymentCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cards/PaymentCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Retailers/IChargeable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Retailers/IChargeable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Retailers/OnlineAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Retailers/OnlineAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Retailers/ReportingSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Retailers/ReportingSoftware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CreditCardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CreditCardTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +30,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +46,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1fJsTytLB9F6k5HBdGSc3pNtPUc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,14 +54,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.CreditCardTest">
+  <component name="RunManager" selected="JUnit.OnlineAccountTest.canChargeCustomer">
     <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphismLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CreditCardTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.canApplyChargeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphismLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest" />
+      <option name="METHOD_NAME" value="canApplyChargeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.canGetChargeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphismLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest" />
+      <option name="METHOD_NAME" value="canGetChargeAmount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -52,9 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OnlineAccountTest.canChargeCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphismLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OnlineAccountTest" />
+      <option name="METHOD_NAME" value="canChargeCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OnlineAccountTest.canChargeCustomer" />
         <item itemvalue="JUnit.CreditCardTest" />
+        <item itemvalue="JUnit.CreditCardTest.canApplyChargeAmount" />
+        <item itemvalue="JUnit.CreditCardTest.canGetChargeAmount" />
         <item itemvalue="JUnit.CreditCardTest.canGetExpirationDate" />
       </list>
     </recent_temporary>
@@ -73,21 +131,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1743" height="253" key="GridCell.Tab.0.bottom" timestamp="1595954076768">
+    <state width="1154" height="229" key="GridCell.Tab.0.bottom" timestamp="1596008039169">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1743" height="253" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1595954076768" />
-    <state width="1743" height="253" key="GridCell.Tab.0.center" timestamp="1595954076764">
+    <state width="1154" height="229" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1596008039169" />
+    <state width="1154" height="229" key="GridCell.Tab.0.center" timestamp="1596008039168">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1743" height="253" key="GridCell.Tab.0.center/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1595954076764" />
-    <state width="1743" height="253" key="GridCell.Tab.0.left" timestamp="1595954076760">
+    <state width="1154" height="229" key="GridCell.Tab.0.center/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1596008039168" />
+    <state width="1154" height="229" key="GridCell.Tab.0.left" timestamp="1596008039168">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1743" height="253" key="GridCell.Tab.0.left/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1595954076760" />
-    <state width="1743" height="253" key="GridCell.Tab.0.right" timestamp="1595954076766">
+    <state width="1154" height="229" key="GridCell.Tab.0.left/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1596008039168" />
+    <state width="1154" height="229" key="GridCell.Tab.0.right" timestamp="1596008039169">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1743" height="253" key="GridCell.Tab.0.right/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1595954076766" />
+    <state width="1154" height="229" key="GridCell.Tab.0.right/0.23.1920.1057/-1440.203.1440.877@0.23.1920.1057" timestamp="1596008039169" />
   </component>
 </project>
